@@ -4,7 +4,6 @@ namespace einsteins_Riddle
 {
     class Program
     {
-        bool result = true;
         static void Main(string[] args)
         {
             string nationality = "";
