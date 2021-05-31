@@ -1,0 +1,12 @@
+/Users/RS/Projects/einsteins_Riddle/einsteins_Riddle/bin/Debug/netcoreapp3.1/einsteins_Riddle.deps.json
+/Users/RS/Projects/einsteins_Riddle/einsteins_Riddle/bin/Debug/netcoreapp3.1/einsteins_Riddle.runtimeconfig.json
+/Users/RS/Projects/einsteins_Riddle/einsteins_Riddle/bin/Debug/netcoreapp3.1/einsteins_Riddle.runtimeconfig.dev.json
+/Users/RS/Projects/einsteins_Riddle/einsteins_Riddle/bin/Debug/netcoreapp3.1/einsteins_Riddle.dll
+/Users/RS/Projects/einsteins_Riddle/einsteins_Riddle/bin/Debug/netcoreapp3.1/einsteins_Riddle.pdb
+/Users/RS/Projects/einsteins_Riddle/einsteins_Riddle/obj/Debug/netcoreapp3.1/einsteins_Riddle.csprojAssemblyReference.cache
+/Users/RS/Projects/einsteins_Riddle/einsteins_Riddle/obj/Debug/netcoreapp3.1/einsteins_Riddle.AssemblyInfoInputs.cache
+/Users/RS/Projects/einsteins_Riddle/einsteins_Riddle/obj/Debug/netcoreapp3.1/einsteins_Riddle.AssemblyInfo.cs
+/Users/RS/Projects/einsteins_Riddle/einsteins_Riddle/obj/Debug/netcoreapp3.1/einsteins_Riddle.csproj.CoreCompileInputs.cache
+/Users/RS/Projects/einsteins_Riddle/einsteins_Riddle/obj/Debug/netcoreapp3.1/einsteins_Riddle.dll
+/Users/RS/Projects/einsteins_Riddle/einsteins_Riddle/obj/Debug/netcoreapp3.1/einsteins_Riddle.pdb
+/Users/RS/Projects/einsteins_Riddle/einsteins_Riddle/obj/Debug/netcoreapp3.1/einsteins_Riddle.genruntimeconfig.cache
