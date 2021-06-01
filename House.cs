@@ -4,14 +4,14 @@ namespace einsteins_Riddle
     public class House
     {
         public int Number;
-        public string Color;
-        
-        public House(int number, string color)
+        public House(int _number)
         {
-            this.Number = number;
-            this.Color = color;
-            
+            this.Number = _number;
         }
+
+
+   
+
     }
         
 }
