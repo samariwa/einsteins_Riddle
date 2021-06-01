@@ -11,15 +11,29 @@ namespace einsteins_Riddle
             string print = "";
             int counter = 0;
             object[][] grid = new object[5][];
+            Console.WriteLine("Please enter your choices for the houses");
             while (counter <= 4)
             {
-                string _nationality = "Brit";
-                string _drink = "34";
-                string _cigarette = "45";
-                string _pet = "2";
-                string _color = "34";
+                int _number = counter + 1;
+                Console.WriteLine("\nHouse " +_number);
+                Console.Write("\nEnter House Color: ");
+                string _color = Console.ReadLine();
+                Console.Write("\nEnter Nationality: ");
+                string _nationality = Console.ReadLine();
+                Console.Write("\nEnter Drink: ");
+                string _drink = Console.ReadLine();
+                Console.Write("\nEnter Cigarette: ");
+                string _cigarette = Console.ReadLine();
+                Console.Write("\nEnter Pet: ");
+                string _pet = Console.ReadLine();
                 Person Obj_Person = new Person(_color, _nationality, _drink, _cigarette, _pet);
-                House Obj_House = new House(counter);
+                House Obj_House = new House(_number);
+                /*Console.Write(Obj_House.Number);
+                Console.Write("\n"+Obj_Person.Color);
+                Console.Write("\n" + Obj_Person.Nationality);
+                Console.Write("\n" + Obj_Person.Drink);
+                Console.Write("\n" + Obj_Person.Cigarette);
+                Console.Write("\n" + Obj_Person.Pet);*/
                 object[] values = new object[6] { Obj_House.Number, Obj_Person.Color, Obj_Person.Nationality, Obj_Person.Drink, Obj_Person.Cigarette, Obj_Person.Pet };
                 grid[counter] = values;
                 int Verify()
@@ -132,7 +146,8 @@ namespace einsteins_Riddle
                  {
                      print = "Fair";
                  }
-                        Console.WriteLine(result);
+            Console.WriteLine("Score: "+result);
+            Console.WriteLine("Result: "+print);
         }
     }
 }
