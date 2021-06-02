@@ -8,10 +8,6 @@ namespace einsteins_Riddle
         {
             this.Number = _number;
         }
-
-
-   
-
     }
         
 }
