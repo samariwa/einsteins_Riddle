@@ -48,6 +48,7 @@ namespace einsteins_Riddle
                 Person Obj_Person = new Person(_color, _nationality, _drink, _cigarette, _pet);
                 House Obj_House = new House(_number);
                 object[] values = new object[6] { Obj_House.Number, Obj_Person.Color, Obj_Person.Nationality, Obj_Person.Drink, Obj_Person.Cigarette, Obj_Person.Pet };
+                Methods.PrintInvalid(values);
                 grid[counter] = values;
                 result = Methods.Points(result,counter,grid, Obj_House.Number, Obj_Person.Color, Obj_Person.Nationality, Obj_Person.Drink, Obj_Person.Cigarette, Obj_Person.Pet);
                 fail = Methods.Failed(fail,rules,failed,grid,counter, Obj_House.Number, Obj_Person.Color, Obj_Person.Nationality, Obj_Person.Drink, Obj_Person.Cigarette, Obj_Person.Pet);

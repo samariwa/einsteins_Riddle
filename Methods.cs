@@ -188,20 +188,54 @@ namespace einsteins_Riddle
             Console.WriteLine("\n\nUsing the rules above, please enter your choices for the houses");
         }
 
+        public static void PrintInvalid(object [] Obj)
+        {
+            if (Obj[1].ToString() == "Invalid color" || Obj[2].ToString() == "Invalid nationality" || Obj[3].ToString() == "Invalid drink" || Obj[4].ToString() == "Invalid cigarette" || Obj[5].ToString() == "Invalid pet")
+            {
+                Console.WriteLine("*****************************");
+                Console.WriteLine("Invalid Entries");
+                Console.WriteLine("*****************************");
+            }
+            if (Obj[1].ToString() == "Invalid color")
+            {
+                Console.WriteLine("\nColor");
+            }
+            if (Obj[2].ToString() == "Invalid nationality")
+            {
+                Console.WriteLine("\nNationality");
+            }
+            if (Obj[3].ToString() == "Invalid drink")
+            {
+                Console.WriteLine("\nDrink");
+            }
+            if (Obj[4].ToString() == "Invalid cigarette")
+            {
+                Console.WriteLine("\nCigarette");
+            }
+            if (Obj[5].ToString() == "Invalid pet")
+            {
+                Console.WriteLine("\nPet");
+            }
+            if (Obj[1].ToString() == "Invalid color" || Obj[2].ToString() == "Invalid nationality" || Obj[3].ToString() == "Invalid drink" || Obj[4].ToString() == "Invalid cigarette" || Obj[5].ToString() == "Invalid pet")
+            {
+                Console.WriteLine("*****************************");
+            }
+        }
+
         public static string Performance(int result)
         {
             string print;
             if (result == 0)
             {
-                print = "Failed";
+                print = "\nFailed";
             }
             else if (result == 14)
             {
-                print = "Passed";
+                print = "\nPassed";
             }
             else
             {
-                print = "Fair";
+                print = "\nFair";
             }
             return print;
         }
@@ -219,6 +253,6 @@ namespace einsteins_Riddle
                     System.Console.Write("\n" + failed_rule);
                 }
             }
-        }
+        } 
     }
 }
